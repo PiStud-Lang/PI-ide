@@ -1,5 +1,5 @@
-import sys, os; sys.path.append(os.path.join(os.path.dirname(__file__), '..')); import package as ps
+import sys, os; sys.path.append(os.path.join(os.path.dirname(__file__), '..')); import package as yr
 
-ps.fn("main", """      
-    pln("Hello from pust")
+yr.fn("main", """      
+    pln("Hello from Year")
 """)
